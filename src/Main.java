@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         // Create a Student object
         Student studA= new Student("Lema Abera", 101, new int[]{25, 40, 100});
         Student studB= new Student("Hewan Abebe", 102, new int[]{58, 70, 75});
@@ -18,9 +19,13 @@ public class Main {
         college.getTeachers(teacherY);
 
         // Print out details
-            System.out.println("College Name: " + college.getName());
+        System.out.println("college details");
+        System.out.println("---------------------------------------------------");
+           
+        System.out.println();
+
         System.out.println("students information");
-            System.out.println("Student 1 Name: " + studA.getName());
+        System.out.println("---------------------------------------------------");
         System.out.println("Student 1 Id: " + studA.getId());
         System.out.println("Student 1 Grades: ");
         for (int grade : studA.getGrades()) {
@@ -32,7 +37,9 @@ public class Main {
         for (int grade : studB.getGrades()) {
             System.out.println(grade);
         }
+        //print out teacher information
         System.out.println("teachers information");
+        System.out.println("---------------------------------------------------");
         System.out.println("Teacher 1 Name: " + teacherX.getName());
         System.out.println("Teacher 1 Subject: " + teacherX.getSubject());
         System.out.println("Teacher 2 Name: " + teacherY.getName());
