@@ -9,26 +9,26 @@ public class Student {
         this.id = id;
         this.grades = grades;
     }
-    // Getter for name
+   '"' //getter used to get values for name,id and grades
+    //getter for name
     public String getName() {
         return name;
-    }
-    // Setter for name
-    public void setName(String name) {
-        this.name = name;
     }
     // Getter for id
     public int getId() {
         return id;
     }
-
-    // Setter for id
-    public void setId(int id) {
-        this.id = id;
-    }
     // Getter for grades
     public int[] getGrades() {
         return grades;
+    }
+    // Setter for name
+    public void setName(String name) {
+        this.name = name;
+    }
+    // Setter for id
+    public void setId(int id) {
+        this.id = id;
     }
     // Setter for student ID
     public void setGrades(int[] grades) {
